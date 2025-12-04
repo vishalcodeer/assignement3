@@ -9,7 +9,7 @@ int main() {
     int secret = rand() % 100 + 1;
     int guess;
     int attempts = 0;
-    int best = 999;
+    int best = 5;
 
     FILE *file = fopen("record.txt", "r");
     if (file != NULL) {
